@@ -14,8 +14,8 @@ from helper.markup import MakeCaptchaMarkup
 app = Client(Config.SESSION_NAME, api_id=Config.APP_ID, api_hash=Config.API_HASH, bot_token=Config.BOT_TOKEN)
 # Local database for saving user info
 LocalDB = {}
-ch_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Updates Channel", url="https://t.me/Universal_Projects"),
-                                    InlineKeyboardButton(text="Support Group", url="https://t.me/JV_Community")]])
+ch_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Updates Channel", url="https://t.me/RobotTech_Official"),
+                                    InlineKeyboardButton(text="Support Group", url="https://t.me/Chatting_officials")]])
 BOT_UNAME = Config.BOT_USERNAME
 
 @app.on_chat_member_updated()
